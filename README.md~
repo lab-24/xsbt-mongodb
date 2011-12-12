@@ -1,0 +1,42 @@
+Requirements
+------------
+
+* [sbt](https://github.com/harrah/xsbt/wiki) 0.10.1 (does not work/compile with sbt 0.10.0) or later. 
+
+
+Installation
+------------
+
+**sbt 0.10.1:**
+
+Add the following lines to ~/.sbt/plugins/build.sbt or PROJECT_DIR/project/plugins/build.sbt
+
+    resolvers += "sbt-lab24-repo" at "http://lab24.github.com/maven/"
+    
+    libraryDependencies += "com.github.lab24" %% "sbt-mongodb" % "0.10.0"
+
+**sbt 0.11.0:**
+
+Add the following lines to ~/.sbt/plugins/build.sbt or PROJECT_DIR/project/plugins.sbt
+
+    resolvers += "sbt-lab24-repo" at "http://mpeltonen.github.com/maven/"
+    
+    addSbtPlugin("com.github.lab24" % "sbt-mongodb" % "0.11.0")
+    
+**NOTE: If you experience problems with sbt 0.11 installation, [see this](https://github.com/mpeltonen/sbt-idea/issues/95).**
+
+Usage
+-----
+
+TODO....
+
+Configuration settings
+----------------------
+
+TODO...
+
+License
+-------
+
+Licensed under the New BSD License. See the LICENSE file for details.
+
