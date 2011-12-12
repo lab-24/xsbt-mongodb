@@ -15,7 +15,6 @@ Add the following lines to ~/.sbt/plugins/build.sbt or PROJECT_DIR/project/plugi
     
     addSbtPlugin("com.github.lab24" % "sbt-mongodb" % "0.11.2")
     
-**NOTE: If you experience problems with sbt 0.11 installation, [see this](https://github.com/mpeltonen/sbt-idea/issues/95).**
 
 Usage
 -----
