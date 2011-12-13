@@ -59,7 +59,7 @@ object MongodbPlugin extends Plugin {
       for (collection <- recursiveListFiles(new File(mFixturesPath))) {
 	      var docCounter = 0
 	      var openCounter = 0
-	      val buff = new StringBuffer()
+	      var buff = new StringBuffer()
 
 	      val coll = db.getCollection(collection.getName())
           val fis = new FileInputStream(collection);
@@ -81,6 +81,7 @@ object MongodbPlugin extends Plugin {
 					}
 		      		coll.insert(data)
 		      		docCounter = docCounter + 1
+		      		buff = new StringBuffer()
 		        }
 	        } else {
 		        // do not add chunk to the buffer, if we are not in a document -> removes also the [ ]

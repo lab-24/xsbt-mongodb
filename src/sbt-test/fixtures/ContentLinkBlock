@@ -2,28 +2,11 @@
   {
   	"_id": {$oid: "4ee5cfe75e927bb2c598f525"}, 
     "workspace": "live",
-	"title": "Kundendienst",
-	"links": [
-		{"name": "Rückgaberecht", "link": "#" },
-		{"name": "Garantie", "link": "#" },
-		{"name": "Registrierung", "link": "#" },
-		{"name": "Kontakt", "link": "#" },
-		{"name": "Geschäftsanfragen", "link": "#" },
-		{"name": "FRXSH-Laden", "link": "#" }
-	]
+	"title": "Kundendienst"
   },
   {
     "_id": {$oid: "4ee5d0295e927bb2c598f526"}, 
     "workspace": "draft",
-    "workspace_id": {$oid: "4ee5cfe75e927bb2c598f525"},
-	"title": "Kundendienst",
-	"links": [
-		{"name": "Rückgaberecht", "link": "#" },
-		{"name": "Garantie", "link": "#" },
-		{"name": "Registrierung", "link": "#" },
-		{"name": "Kontakt", "link": "#" },
-		{"name": "Geschäftsanfragen", "link": "#" },
-		{"name": "FRXSH-Laden", "link": "#" }
-	]
+	"title": "Kundendienst"
   }
 ]
