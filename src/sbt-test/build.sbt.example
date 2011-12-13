@@ -1,0 +1,12 @@
+import com.github.lab24.sbtmongodb.MongodbPlugin._
+
+
+seq(mongodbSettings: _*)
+
+mongoHost 		:= "127.0.0.1"
+
+mongoPort 		:= 27017
+
+mongoDb 		:= "sbttest"
+
+mongoFixturesPath 	:= "fixtures/"

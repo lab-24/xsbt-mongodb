@@ -13,8 +13,14 @@ lazy val mainSettings: Seq[Project.Setting[_]] = Defaults.defaultSettings ++ Seq
 	publishMavenStyle := true,
 	resolvers += Classpaths.typesafeSnapshots,
 	scalacOptions ++= Seq("-deprecation", "-unchecked"),
-	libraryDependencies += "org.scalaz" %% "scalaz-core" % "6.0.3"                
+	libraryDependencies ++= helperDependencies
+        
 )
+
+  private def helperDependencies = Seq(
+    "commons-io" % "commons-io" % "2.0.1",
+    "org.mongodb" % "mongo-java-driver" % "2.7.2"
+  )
 
 }
 
