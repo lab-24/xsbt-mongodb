@@ -77,7 +77,7 @@ Or if you are using a build object extending from Build:
         </tr>
         <tr><td></td><td>
 
-            mongoPort := "secretstuff"
+            mongoPort := 27017
 
         </td></tr>
         <tr>
