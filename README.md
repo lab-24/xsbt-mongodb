@@ -8,7 +8,7 @@ Add the following to your `project/plugins.sbt`:
 
 ## sbt-0.11.0
 
-	resolvers += "sbt-lab24-repo" at "http://lab24.github.com/maven/"
+	resolvers += "sbt-lab24-repo" at "http://lab-24.github.com/maven/"
 	  
 	addSbtPlugin("com.github.lab24" % "xsbt-mongodb" % "0.11.2-SNAPSHOT")
 
